@@ -1,0 +1,102 @@
+.signup-parent{
+    width: 100%;
+    height: 100vh;
+    background: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg')no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-parent .signup-box{
+    width: 830px;
+    height: 490px;
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    box-shadow: 0px 2px 8px black;
+}
+.signup-box .child{
+    width: 50%;
+    height: 100%;
+    place-items: center;
+}
+.signup-box .child h3{
+    width: 100%;
+    padding: 15px;
+    padding-left: 70px;
+    color: white;
+    background: rgb(64, 64, 154);
+    border-bottom-left-radius: 150px;
+    place-items: center;
+    
+}
+.signup-box .child img{
+    width: 100%;
+    height: 100%;    
+}
+.signup-box .child:nth-child(1){
+    background: lightcyan;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.signup-box .child form{
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: start;
+}
+.signup-box .child form .input-field{
+    width: 100%;
+    display: block;
+    color: rgb(64, 64, 154);
+}
+.signup-box .child form .input-field label{
+    font-weight: 600;
+}
+.signup-box .child form .input-field input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border:none;
+    border-radius: 3px;
+    margin-top: 5px;
+    transition: all ease-in 0.4s;
+}
+
+.signup-box .child form .input-field input[type='submit']{
+    width: 50%;
+    background: rgb(64, 64, 154);
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+    padding: 12px;
+    transition: all ease-in 0.4s;
+    font-size: 16px;
+    margin-left: 100px;
+
+}
+.signup-box .child form .input-field input[type='submit']:hover{
+    background: darkcyan;
+    color: white;
+}
+.signup-box .child form .input-field .error{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin-top: -10px;
+}
+.process{
+    background: silver !important;
+    border: 2px solid silver !important;
+}

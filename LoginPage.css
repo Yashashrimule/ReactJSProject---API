@@ -1,0 +1,110 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: url('https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-21.jpg')no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    object-position: center;
+   
+}
+.login-container .login-box{
+    width: 380px;
+    height: 410px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px black;
+    background: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+   
+    
+}
+.login-box .title{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    color: white;
+    background: rgb(64, 64, 154);
+    border-bottom-left-radius: 150px;
+    
+
+   
+}
+.login-box form{
+    width: 100%;
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    
+}
+.login-box form .input-field{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-weight: 599;
+}
+.login-box form .input-field label{
+    color: rgb(64, 64, 154);
+    font-weight: 599;
+}
+.login-box form .input-field a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: rgb(64, 64, 154);
+}
+.login-box form .input-field a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(33, 33, 190);
+}
+
+.login-box form .input-field input[type='email'],
+.login-box form .input-field input[type='password']{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    outline: none;
+    border: none;
+    
+    transition: all ease-in 0.4s;
+   
+    
+
+}
+.login-box form .input-field input[type='email']:focus,
+.login-box form .input-field input[type='password']:focus{
+    border: 2px solid rgb(64, 64, 154);
+}
+.login-box form .input-field input[type='submit']{
+    width: 60%;
+    padding: 11px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: rgb(64, 64, 154);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+.login-box form .input-field input[type='submit']:hover{
+    background: darkcyan;
+    color: white;
+}
+.process{
+    background: silver !important;
+    cursor: not-allowed;
+}
